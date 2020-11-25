@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Varela&display=swap');
+
+html {
+  --primaryFont: 'Permanent Marker', sans-serif;
+  --secondaryFont: 'Varela', sans-serif;
+  font-size: 1.5rem;
+  font-family: var(--secondaryFont);
+}
+
+h1,
+h3 {
+  font-family: var(--primaryFont);
+}
