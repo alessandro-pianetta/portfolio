@@ -1,24 +1,279 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alessandro Pianetta</title>
   </head>
   <body>
-    <header>
-      <h1>Hi, I'm Alex!</h1>
-      <h2>
-        I'm a front-end Javascript developer based in Palo Alto, California.
-      </h2>
+    <header class="section header">
+      <div class="header--top">
+        <h1>Alessandro Pianetta</h1>
+        <h2>
+          Front End Developer
+        </h2>
+      </div>
+      <div class="header--bottom">
+        <input type="checkbox" id="switch"
+        class="checkbox" />
+        <label for="switch" class="toggle">
+          <p class="label-text dark-mode"><img src="./assets/images/sun.png" height="25" width="25" /></p>
+          <p class="label-text light-mode"><img src="./assets/images/moon.png" height="25" width="25" /></p>
+        </label>
+      </div>
     </header>
     <main>
-      <section>
+      
+      <section id="about" class="section">
+        <h3>About Me</h3>
+        <div class="section--body">
+          <div class="polaroid">
+              <img src="https://picsum.photos/200" height="200" width="200" alt="Portrait of Alessandro Pianetta"></img>
+          </div>
+          <p class="intro">Hi! I'm Alessandro. I'm a front end developer based in the San Francisco Bay Area.<br /><br /> I build React, React Native, and Angular apps for a wide variety of clients, both big and small. <br /><br /> Nice to meet you!</p>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
         <h3>Projects</h3>
-        <ul>
-          <li>Open Disclosure San José</li>
+        <ul class="section--body">
+          <li class="project polaroid">
+            <img src="https://picsum.photos/306/172" width="306" height="172"></img>
+            <h4>Open Disclosure San José</h4>
+          </li>
+
+          <li class="project polaroid">
+            <img src="https://picsum.photos/306/172" width="306" height="172"></img>
+            <h4>Geolocatr</h4>
+          </li>
+
+          <li class="project polaroid">
+            <img src="https://picsum.photos/306/172" width="306" height="172"></img>
+            <h4>Courtney Brittan Blog</h4>
+          </li>
         </ul>
       </section>
+
+      <section id="skills" class="section">
+        <h3>Skills</h3>
+        <ul class="section--body">
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>HTML 5</p>
+          </li>
+
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>CSS 3</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>Sass</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>JavaScript</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>TypeScript</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>React</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>React Native</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>Angular</p>
+          </li>
+  
+          <li class="skill">
+            <img src="https://picsum.photos/47/50" width="47" height="50">
+            <p>Ionic</p>
+          </li>
+          </ul>
+      </section>
+
+      <section id="experience" class="section">
+        <h3>Experience</h3>
+        <div class="section--body">
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-item--left">
+              <div class="sidebar"></div>
+              <img src="https://picsum.photos/40" width="40" height="40"></img>
+            </div>
+            <div class="exp-item--right">
+              <div class="exp-item--card">
+                <span class="platform">Platform</span>
+                <h4>Job Title</h4>
+                <h5>Company</h5>
+                <div class="tech-stack">
+                  <span class="stack--item">Tech 1</span>
+                  <span class="stack--item">Tech 2</span>
+                  <span class="stack--item">Tech 3</span>
+                  <span class="stack--item">Tech 4</span>
+                  <span class="stack--item">Tech 5</span>
+                  <span class="stack--item">Tech 6</span>
+                  <span class="stack--item">Tech 7</span>
+                  <span class="stack--item">Tech 8</span>
+                  <span class="stack--item">Tech 9</span>
+                  <span class="stack--item">Tech 10</span>
+                </div>
+                <span class="exp-item--dates">Start-End Dates</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <!-- <a href="https://www.flaticon.com/free-icons/sun" title="sun icons">Sun icons created by Good Ware - Flaticon</a> -->
+        <!-- <a href="https://www.flaticon.com/free-icons/moon" title="moon icons">Moon icons created by Good Ware - Flaticon</a> -->
+      </footer>
     </main>
   </body>
 </html>
